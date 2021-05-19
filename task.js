@@ -16,7 +16,7 @@ function convertFahrToCelsius (f) {
 function checkYuGiOh(n) {
    let result =[];
     if(isNaN(n)) {
-    return `${n} is not a valid number`;
+    return `invalid parameter: "${n}"`;
     }
     for (let i = 0; i <= n; i++) {
     let localvar=[];
